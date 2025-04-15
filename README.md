@@ -10,7 +10,7 @@ This is a command-line implementation of the classic Battleship game in Python.
     ```
 2.  **Run the Game:**
     ```bash
-    python battleship.py
+    python Battleship.py
     ```
 3.  **Ship Placement:**
     * Players take turns placing their ships on a 10x10 grid.
