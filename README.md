@@ -6,8 +6,7 @@ This is a command-line implementation of the classic Battleship game in Python.
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/ScreenNamePlus1/Battleship.git](https://github.com/ScreenNamePlus1/Battleship.git)
-    cd Battleship
+    git clone https://github.com/ScreenNamePlus1/Battleship.git
     ```
 2.  **Run the Game:**
     ```bash
