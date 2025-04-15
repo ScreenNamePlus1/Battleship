@@ -1,62 +1,60 @@
-# Battleship Game
+ # Battleship Game (Local Two-Player)
 
-This is a command-line implementation of the classic Battleship game in Python.
+This is a Python implementation of the classic Battleship game, where two players take turns on the same computer.
 
 ## How to Play
 
-1.  **Clone the Repository:**
-    ```bash
-    git clone https://github.com/ScreenNamePlus1/Battleship.git
-    ```
-2.  **Run the Game:**
-    ```bash
-    python Battleship.py
-    ```
-3.  **Ship Placement:**
-    * Players take turns placing their ships on a 10x10 grid.
-    * You'll be prompted to enter coordinates (e.g., `A5`) and an orientation (`H` for horizontal, `V` for vertical).
-    * Ships cannot overlap or extend beyond the board's boundaries.
-4.  **Taking Shots:**
-    * Players take turns guessing the coordinates of the opponent's ships.
-    * Enter coordinates (e.g., `B3`) to fire a shot.
-    * `X` marks a hit, and `O` marks a miss.
-5.  **Winning:**
-    * The first player to sink all of the opponent's ships wins.
+1.  **Run the Game:**
+    * Open a terminal or command prompt.
+    * Navigate to the directory containing the `battleship.py` file.
+    * Run the script: `python battleship.py`
 
-## Game Rules
+2.  **Player 1 Place Ships:**
+    * Player 1 will be prompted to place their ships on the board.
+    * Follow the on-screen instructions to enter coordinates and orientations for each ship.
+    * Available ship sizes:
+        * Carrier (5)
+        * Battleship (4)
+        * Cruiser (3)
+        * Submarine (3)
+        * Destroyer (2)
+    * Valid orientations: H (horizontal) or V (vertical).
+    * Valid coordinates: A1 - J10.
 
-* The game uses a standard 10x10 grid.
-* The following ships are used:
-    * Carrier (size 5)
-    * Battleship (size 4)
-    * Cruiser (size 3)
-    * Submarine (size 3)
-    * Destroyer (size 2)
-* Ships can be placed horizontally or vertically.
-* Ships cannot overlap.
-* Players take turns firing shots.
-* The game ends when one player has sunk all of the opponent's ships.
+3.  **Player 2 Place Ships:**
+    * Player 2 will then be prompted to place their ships on their board.
 
-## Improvements
+4.  **Take Turns:**
+    * Players take turns guessing the coordinates of their opponent's ships.
+    * Enter the coordinates of your shot (e.g., A5).
+    * The game will indicate whether your shot was a hit or a miss.
+    * If a ship is sunk, the game will announce which ship was sunk.
 
-* Clear screen between turns.
-* Display updated shot board after each shot.
-* Improved coordinate and orientation input validation.
-* Added more descriptive error messages.
+5.  **Win Condition:**
+    * The first player to sink all of their opponent's ships wins the game.
+
+6.  **Quitting**
+    * Entering "Q" at the coordinates prompt will exit the game.
+
+## Dependencies
+
+* Python 3.x
+* No external libraries are required (uses the standard `os` and `random` libraries).
+
+## Notes
+
+* This is a local two-player game, with players taking turns on the same computer.
+* The game provides basic input validation.
+* The game board is displayed in the terminal.
 
 ## Future Improvements
 
-* Add a function to check for sunk ships.
-* Add random ship placement.
-* Add game difficulty options.
-* Add more robust error handling.
-* Add clear screen functionality for better UI.
+* Graphical user interface (GUI).
+* Ability to save and load games.
+* More robust error handling.
+* Refined game logic and user interface.
+* Network multiplayer.
 
-## Author
-
-[ScreenNamePlus1]
-
-MIT license
 
 # Battleship2 Multiplayer over Wi-Fi ⚓️
 
