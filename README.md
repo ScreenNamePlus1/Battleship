@@ -160,7 +160,7 @@ No additional libraries are required, as the game uses only Python's standard li
 Feel free to fork this project, submit issues, or create pull requests to add features or fix bugs. Suggestions for improvements are welcome!
 
 ## License
-This project is open-source and available under the [MIT License](LICENSE). (Note: You'll need to create a `LICENSE` file if you want to include one.)
+This project is open-source and available under the [GNU AGPL 3.0 LICENSE (LICENSE).
 
 ## Acknowledgments
 - Built with Python's standard library.
