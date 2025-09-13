@@ -1,8 +1,4 @@
-I notice you want a README file for the provided Battleship game code. Below is a suggested README file that describes the project, its features, how to set it up, and how to play the game. The README is written in Markdown format, which is commonly used for GitHub repositories or project documentation.
-
----
-
-# Battleship Game
+# Battleship_Enhanced
 
 ## Overview
 This is an enhanced implementation of the classic **Battleship** game written in Python. The game supports both local two-player mode and networked multiplayer mode, allowing players to compete either on the same computer or over a network. The game features a clean console-based interface, ship placement validation, and robust network communication for multiplayer functionality.
